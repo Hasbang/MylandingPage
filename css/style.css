@@ -1,0 +1,160 @@
+
+
+body{
+    margin: 0;
+    font-family: Roboto, snas-serif;
+}
+.header-section{
+    background: #1f2937;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+
+}
+.logo{
+    color: white;
+    font-size: 34px;
+    font-style: italic;
+    font-weight: 900;
+}
+ul{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    justify-content: flex-end;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.content-Div{
+    color: white;
+    width: 600px;
+}
+.getstarted{
+    padding: 30px;
+    
+}
+.container{
+    margin: auto;
+
+}
+.container, .nav-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    padding: 20px;
+}
+.information{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    padding: 10px;
+}
+.main {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight:900;
+    color: #1f2937;
+}
+.info{
+    max-width: 200px;
+
+}
+.imageposition img{
+    width: 200px;
+    height: 200px;
+   border-radius: 8px;
+}
+.text{
+    margin: 20px;
+}
+    
+
+.content-box2{
+    background: #e5e7eb;
+    padding: 40px;
+   text-align: center;
+}
+.content-box2 .quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 900;
+    color: #1f2937;
+}
+.content-box2 .name{
+    font-size: 30px;
+    font-style: italic;
+    text-align: right;
+    margin-top: 20px;
+    font-weight: 700;
+}
+.modal{
+    background: #3882f6;
+    width: 60%;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap:16px ;
+    margin: 68px;
+}
+.left-side{
+    
+    padding: 20px;
+    color:#fff
+    
+}
+.left-side h2{
+    font-size: 48px;
+    font-weight: 900;
+   
+    
+}
+.left-side p{
+   font-style: italic;
+   font-size: 28px;
+}
+.sign-up{
+    border: 2px solid #fff;
+    
+
+
+}
+button{
+    padding: 10px 40px;
+    border-radius: 8px;
+    background: #3882f6;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+
+
+
+    .footer{
+        background:#1f2937 ;
+        padding: 20px;
+
+    }
+    .footer p{
+        color: #fff;
+        text-align: center;
+        font-size: 18px;
+    }
